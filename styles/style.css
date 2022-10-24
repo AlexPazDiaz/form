@@ -1,0 +1,217 @@
+* {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+#rectang {
+  background-color: #FF8496;
+  color: white;
+  width: 100%;
+  height: 70vh;
+  padding-top: 20px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#rectang hr {
+  border: 1px solid white;
+  width: 200vh;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  -ms-grid-rows: (10vh)[3];
+      grid-template-rows: repeat(3, 10vh);
+  position: relative;
+  top: 5vh;
+}
+
+.grid .oo input {
+  border: transparent;
+  background-color: rgba(255, 255, 255, 0.438);
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+.grid .oo textarea {
+  border: transparent;
+  background-color: rgba(255, 255, 255, 0.438);
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+.grid .oo input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.815);
+}
+
+.grid .oo input:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.815);
+}
+
+.grid .oo input::-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.815);
+}
+
+.grid .oo input::placeholder {
+  color: rgba(255, 255, 255, 0.815);
+}
+
+.grid .oo textarea::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.815);
+}
+
+.grid .oo textarea:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.815);
+}
+
+.grid .oo textarea::-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.815);
+}
+
+.grid .oo textarea::placeholder {
+  color: rgba(255, 255, 255, 0.815);
+}
+
+.grid .oo input:focus {
+  outline: 2px solid #FC6A83;
+}
+
+.grid .oo textarea:focus {
+  outline: 2px solid #FC6A83;
+}
+
+.grid .o4 {
+  position: relative;
+  left: 15vh;
+}
+
+.grid .o4 input {
+  width: 40vh;
+  height: 10vh;
+}
+
+.grid .o4 textarea {
+  width: 50vh;
+  height: 13vh;
+  padding: 12px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  resize: none;
+}
+
+.grid .o6 {
+  position: relative;
+  left: 24vh;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.grid .o6 select {
+  width: 30vh;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.438);
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+.grid .oo select:focus {
+  outline: 2px solid #FC6A83;
+}
+
+.grid .lo {
+  position: relative;
+  top: 10vh;
+}
+
+.grid .to {
+  position: relative;
+  top: 4vh;
+}
+
+.grid .button {
+  color: white;
+  background-color: #FF8496;
+}
+
+@media only screen and (max-width: 1400px) {
+  .grid {
+    grid-auto-flow: row;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+  }
+  .grid .oo {
+    height: 30vh;
+  }
+  .grid .o4 {
+    position: relative;
+    left: 40vh;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .grid .o6 {
+    position: relative;
+    left: 40vh;
+  }
+  .grid .to {
+    position: relative;
+    top: 8vh;
+  }
+  #rectang {
+    height: 90vh;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .grid {
+    grid-auto-flow: row;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+  }
+  .grid .oo {
+    height: 30vh;
+  }
+  .grid .o4 {
+    position: relative;
+    left: 15vh;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .grid .o5 {
+    position: relative;
+    top: -10vh;
+  }
+  .grid .o6 {
+    position: relative;
+    top: -30vh;
+    left: 25vh;
+  }
+  .grid .o7 {
+    position: relative;
+    top: -50vh;
+  }
+  .grid .o8 {
+    position: relative;
+    top: -70vh;
+  }
+  .grid .o9 {
+    position: relative;
+    top: -90vh;
+  }
+  #rectang {
+    height: 130vh;
+  }
+}
+/*# sourceMappingURL=style.css.map */
